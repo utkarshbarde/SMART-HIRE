@@ -4,4 +4,4 @@ pandas
 numpy
 joblib
 reportlab
-unicorn
+gunicorn
