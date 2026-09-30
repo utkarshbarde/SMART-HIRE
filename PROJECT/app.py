@@ -119,4 +119,4 @@ if __name__ == "__main__":
     print("=" * 62 + "\n")
     if os.environ.get("SMARTHIRE_NO_BROWSER") != "1":
         threading.Timer(1.2, lambda: webbrowser.open(url)).start()
-    app.run(host="127.0.0.1", port=port, debug=os.environ.get("SMARTHIRE_DEBUG") == "1")
+    app.run(host="0.0.0.0", port=port, debug=os.environ.get("SMARTHIRE_DEBUG") == "1")
